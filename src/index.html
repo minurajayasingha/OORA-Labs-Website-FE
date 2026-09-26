@@ -2,7 +2,33 @@
 <html lang="en" class="scroll-smooth" data-mode="light" dir="ltr">
 
 <head>
-  {{> partials/title-meta title="Index" }} {{> partials/head-css }}
+  {{> partials/title-meta
+    title="Custom Software & AI Solutions"
+    description="OORA Labs builds custom software, AI-driven tools, and digital transformation solutions that help businesses work smarter and grow faster."
+    path=""
+  }}
+  {{> partials/head-css }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "OORA Labs",
+    "url": "https://ooralabz.com/",
+    "logo": "https://ooralabz.com/assets/images/Logo.svg",
+    "email": "hello@ooralabz.com",
+    "telephone": "+94712688070",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "97, Wanatha Rd",
+      "addressLocality": "Maharagama",
+      "addressCountry": "LK"
+    },
+    "sameAs": [
+      "https://www.instagram.com/oora_labz?igsh=MTZnYzg1anFjaTh1eA==",
+      "https://www.linkedin.com/company/ooralab/"
+    ]
+  }
+  </script>
 </head>
 
 <body class="overflow-x-hidden">
@@ -12,7 +38,7 @@
       <div class="relative">
         <div
           class="flex flex-col lg:flex-row gap-10 sm:gap-[60px] lg:gap-0 justify-between items-center pt-[185px] sm:pt-[267px] pb-[122px] relative">
-          <img class="self-center lg:self-start float-img2" src="./assets/images/robot1.png" alt="robot-1" />
+          <img class="self-center lg:self-start float-img2" src="./assets/images/robot1.png" alt="" />
           <div class="md:w-[674px] mx-auto flex flex-col justify-center items-center gap-5">
             <p data-aos="zoom-in" class="subtitle text-body2 sm:text-body1 text-primary-light relative py-[5px] px-5">
               Welcome to GeeksforGeeks
@@ -65,15 +91,15 @@
               </div>
             </div>
           </div>
-          <img class="self-center float-img" src="./assets/images/robot2.png" alt="robot-2" />
+          <img class="self-center float-img" src="./assets/images/robot2.png" alt="" />
         </div>
 
-        <img class="flip-infinite absolute bottom-[54px] left-0" src="./assets/images/ai1.svg" alt="ai1" />
-        <img class="flip-infinite absolute bottom-5 right-0 sm:right-[230px]" src="./assets/images/ai2.svg" alt="ai2" />
+        <img class="flip-infinite absolute bottom-[54px] left-0" src="./assets/images/ai1.svg" alt="" />
+        <img class="flip-infinite absolute bottom-5 right-0 sm:right-[230px]" src="./assets/images/ai2.svg" alt="" />
         <img class="spin-infinite absolute top-28 sm:top-[150px] xl:top-[241px] left-0 sm:left-[190px]"
-          src="./assets/images/vire.svg" alt="vire" />
+          src="./assets/images/vire.svg" alt="" />
         <img class="absolute top-[150px] sm:top-[216px] right-0 zoom-out-img" src="./assets/images/bulb.svg"
-          alt="bulb" />
+          alt="" />
       </div>
     </div>
   </section>
@@ -92,21 +118,21 @@
     </div>
 
     <div data-aos="zoom-in" class="logo-marquee-wrapper relative overflow-hidden">
-      <div class="logo-marquee-track flex gap-[80px]">
-        <img src="./assets/images/logo-img1.svg" alt="img1" />
-        <img src="./assets/images/logo-img2.svg" alt="img2" />
-        <img src="./assets/images/logo-img3-5.svg" alt="img3" />
-        <img src="./assets/images/logo-img4.svg" alt="img4" />
-        <img src="./assets/images/logo-img3-5.svg" alt="img5" />
-        <img src="./assets/images/logo-img6.svg" alt="img6" />
-        <img src="./assets/images/logo-img7.svg" alt="img7" />
-        <img src="./assets/images/logo-img1.svg" alt="img8" />
-        <img src="./assets/images/logo-img2.svg" alt="img9" />
-        <img src="./assets/images/logo-img3-5.svg" alt="img10" />
-        <img src="./assets/images/logo-img4.svg" alt="img11" />
-        <img src="./assets/images/logo-img3-5.svg" alt="img12" />
-        <img src="./assets/images/logo-img6.svg" alt="img13" />
-        <img src="./assets/images/logo-img7.svg" alt="img14" />
+      <div class="logo-marquee-track flex gap-[80px]" aria-hidden="true">
+        <img src="./assets/images/logo-img1.svg" alt="" />
+        <img src="./assets/images/logo-img2.svg" alt="" />
+        <img src="./assets/images/logo-img3-5.svg" alt="" />
+        <img src="./assets/images/logo-img4.svg" alt="" />
+        <img src="./assets/images/logo-img3-5.svg" alt="" />
+        <img src="./assets/images/logo-img6.svg" alt="" />
+        <img src="./assets/images/logo-img7.svg" alt="" />
+        <img src="./assets/images/logo-img1.svg" alt="" />
+        <img src="./assets/images/logo-img2.svg" alt="" />
+        <img src="./assets/images/logo-img3-5.svg" alt="" />
+        <img src="./assets/images/logo-img4.svg" alt="" />
+        <img src="./assets/images/logo-img3-5.svg" alt="" />
+        <img src="./assets/images/logo-img6.svg" alt="" />
+        <img src="./assets/images/logo-img7.svg" alt="" />
       </div>
     </div>
   </section>
@@ -129,9 +155,9 @@
       </div>
     </div>
 
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 items-center">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 items-stretch">
       <div data-aos="fade-up"
-        class="relative w-[288px] sm:w-full mx-auto sm:mx-0 p-[25px] sm:p-[30px] rounded-[30px] overflow-hidden group hover:shadow-[0_0_20px_#7ABC9B]">
+        class="relative w-[288px] sm:w-full mx-auto sm:mx-0 h-full flex flex-col p-[25px] sm:p-[30px] rounded-[30px] overflow-hidden group hover:shadow-[0_0_20px_#7ABC9B]">
         <div class="absolute inset-0 bg-secondary-dark transition-opacity duration-300"></div>
         <div
           class="absolute inset-0 bg-gradient-to-b from-[#7ABC9B] to-[#009688] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -145,10 +171,10 @@
           <div
             class="absolute inset-0 bg-secondary-dark rounded-[30px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           </div>
-          <img src="./assets/images/service-img/service1.svg" alt="icon1"
+          <img src="./assets/images/service-img/service1.svg" alt="Custom Software Development icon"
             class="relative z-[5] w-[70px] lg:w-[80px] mx-auto group-hover:scale-x-[-1] transition-all duration-300 ease-linear" />
         </div>
-        <div class="relative flex flex-col gap-[10px] mt-5">
+        <div class="relative flex flex-col gap-[10px] mt-5 flex-1">
           <h4
             class="text-[20px] lg:text-[19px] 2xl:text-[20px] leading-7 lg:leading-6 2xl:leading-7 font-bold text-secondary-white text-center">
             Custom Software Development
@@ -166,7 +192,7 @@
       </div>
 
       <div data-aos="fade-up"
-        class="relative w-[288px] sm:w-full mx-auto sm:mx-0 p-[25px] sm:p-[30px] rounded-[30px] overflow-hidden group hover:shadow-[0_0_20px_#7ABC9B]">
+        class="relative w-[288px] sm:w-full mx-auto sm:mx-0 h-full flex flex-col p-[25px] sm:p-[30px] rounded-[30px] overflow-hidden group hover:shadow-[0_0_20px_#7ABC9B]">
         <div class="absolute inset-0 bg-secondary-dark transition-opacity duration-300"></div>
         <div
           class="absolute inset-0 bg-gradient-to-b from-[#7ABC9B] to-[#009688] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -180,10 +206,10 @@
           <div
             class="absolute inset-0 bg-secondary-dark rounded-[30px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           </div>
-          <img src="./assets/images/service-img/service2.svg" alt="icon1"
+          <img src="./assets/images/service-img/service2.svg" alt="AI & Intelligent Solutions icon"
             class="relative z-[5] w-[70px] lg:w-[80px] mx-auto group-hover:scale-x-[-1] transition-all duration-300 ease-linear" />
         </div>
-        <div class="relative flex flex-col gap-[10px] mt-5">
+        <div class="relative flex flex-col gap-[10px] mt-5 flex-1">
           <h4
             class="text-[20px] lg:text-[19px] 2xl:text-[20px] leading-7 lg:leading-6 2xl:leading-7 font-bold text-secondary-white text-center">
             AI & Intelligent Solutions
@@ -201,7 +227,7 @@
       </div>
 
       <div data-aos="fade-up"
-        class="relative w-[288px] sm:w-full mx-auto sm:mx-0 p-[25px] sm:p-[30px] rounded-[30px] overflow-hidden group hover:shadow-[0_0_20px_#7ABC9B]">
+        class="relative w-[288px] sm:w-full mx-auto sm:mx-0 h-full flex flex-col p-[25px] sm:p-[30px] rounded-[30px] overflow-hidden group hover:shadow-[0_0_20px_#7ABC9B]">
         <div class="absolute inset-0 bg-secondary-dark transition-opacity duration-300"></div>
         <div
           class="absolute inset-0 bg-gradient-to-b from-[#7ABC9B] to-[#009688] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -215,10 +241,10 @@
           <div
             class="absolute inset-0 bg-secondary-dark rounded-[30px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           </div>
-          <img src="./assets/images/service-img/service3.svg" alt="icon1"
+          <img src="./assets/images/service-img/service3.svg" alt="Cloud & IT Solutions icon"
             class="relative z-[5] w-[70px] lg:w-[80px] mx-auto group-hover:scale-x-[-1] transition-all duration-300 ease-linear" />
         </div>
-        <div class="relative flex flex-col gap-[10px] mt-5">
+        <div class="relative flex flex-col gap-[10px] mt-5 flex-1">
           <h4
             class="text-[20px] lg:text-[19px] 2xl:text-[20px] leading-7 lg:leading-6 2xl:leading-7 font-bold text-secondary-white text-center">
             Cloud & IT Solutions
@@ -236,7 +262,7 @@
       </div>
 
       <div data-aos="fade-up"
-        class="relative w-[288px] sm:w-full mx-auto sm:mx-0 p-[25px] sm:p-[30px] rounded-[30px] overflow-hidden group hover:shadow-[0_0_20px_#7ABC9B]">
+        class="relative w-[288px] sm:w-full mx-auto sm:mx-0 h-full flex flex-col p-[25px] sm:p-[30px] rounded-[30px] overflow-hidden group hover:shadow-[0_0_20px_#7ABC9B]">
         <div class="absolute inset-0 bg-secondary-dark transition-opacity duration-300"></div>
         <div
           class="absolute inset-0 bg-gradient-to-b from-[#7ABC9B] to-[#009688] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -250,10 +276,10 @@
           <div
             class="absolute inset-0 bg-secondary-dark rounded-[30px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           </div>
-          <img src="./assets/images/service-img/service4.svg" alt="icon1"
+          <img src="./assets/images/service-img/service4.svg" alt="Mobile Application Development icon"
             class="relative z-[5] w-[70px] lg:w-[80px] mx-auto group-hover:scale-x-[-1] transition-all duration-300 ease-linear" />
         </div>
-        <div class="relative flex flex-col gap-[10px] mt-5">
+        <div class="relative flex flex-col gap-[10px] mt-5 flex-1">
           <h4
             class="text-[20px] lg:text-[19px] 2xl:text-[20px] leading-7 lg:leading-6 2xl:leading-7 font-bold text-secondary-white text-center">
             Mobile Application Development
@@ -297,7 +323,7 @@
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 items-center">
       <div onclick="window.location.href='teamDetail.html'" data-aos="flip-up"
         class="relative w-[288px] sm:w-full z-[1] group mx-auto sm:mx-0 cursor-pointer">
-        <img src="./assets/images/team/team1.png" alt="team1" class="relative w-full h-full" />
+        <img src="./assets/images/team/team1.png" alt="Daniel Ortiz, Senior Data Scientist at OORA Labs" class="relative w-full h-full" />
 
         <div
           class="cursor-pointer absolute top-0 w-full h-full bg-[#000000B2] bg-gradient-to-b from-[rgba(0,150,136,0.1)] to-[rgba(122,188,155,0.1)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -340,7 +366,7 @@
 
       <div onclick="window.location.href='teamDetail.html'" data-aos="flip-up"
         class="relative w-[288px] sm:w-full z-[1] group mx-auto sm:mx-0">
-        <img src="./assets/images/team/team2.png" alt="team1" class="relative w-full h-full" />
+        <img src="./assets/images/team/team2.png" alt="Elena Park, Product & Strategy at OORA Labs" class="relative w-full h-full" />
 
         <div
           class="cursor-pointer absolute top-0 w-full h-full bg-[#000000B2] bg-gradient-to-b from-[rgba(0,150,136,0.1)] to-[rgba(122,188,155,0.1)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -383,7 +409,7 @@
 
       <div onclick="window.location.href='teamDetail.html'" data-aos="flip-up"
         class=" relative w-[288px] sm:w-full z-[1] group mx-auto sm:mx-0">
-        <img src="./assets/images/team/team3.png" alt="team1" class="relative w-full h-full" />
+        <img src="./assets/images/team/team3.png" alt="Lucas Chen, Lead ML Engineer at OORA Labs" class="relative w-full h-full" />
 
         <div
           class="cursor-pointer absolute top-0 w-full h-full bg-[#000000B2] bg-gradient-to-b from-[rgba(0,150,136,0.1)] to-[rgba(122,188,155,0.1)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -665,7 +691,7 @@
 
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 items-center">
       <div data-aos="flip-right" class="group w-[288px] sm:w-full mx-auto sm:mx-0">
-        <img src="./assets/images/blog/blog1.png" alt="blog" class="w-full" />
+        <img src="./assets/images/blog/blog1.png" alt="Building an AI-First Culture: A Leadership Guide" class="w-full" />
         <div class="p-5 relative">
           <div
             class="absolute inset-0 bg-gradient-to-br from-[rgba(0,150,136,0.2)] to-[rgba(122,188,155,0.2)] rounded-br-[20px] rounded-bl-[20px] transition-opacity duration-300">
@@ -702,7 +728,7 @@
       </div>
 
       <div data-aos="flip-right" class="group w-[288px] sm:w-full mx-auto sm:mx-0">
-        <img src="./assets/images/blog/blog2.png" alt="blog" class="w-full" />
+        <img src="./assets/images/blog/blog2.png" alt="MLOps Best Practices for Enterprise Deployment" class="w-full" />
         <div class="p-5 relative">
           <div
             class="absolute inset-0 bg-gradient-to-br from-[rgba(0,150,136,0.2)] to-[rgba(122,188,155,0.2)] rounded-br-[20px] rounded-bl-[20px] transition-opacity duration-300">
@@ -739,7 +765,7 @@
       </div>
 
       <div data-aos="flip-right" class="group w-[288px] sm:w-full mx-auto sm:mx-0">
-        <img src="./assets/images/blog/blog3.png" alt="blog" class="w-full" />
+        <img src="./assets/images/blog/blog3.png" alt="Measuring AI ROI: Beyond the Hype" class="w-full" />
         <div class="p-5 relative">
           <div
             class="absolute inset-0 bg-gradient-to-br from-[rgba(0,150,136,0.2)] to-[rgba(122,188,155,0.2)] rounded-br-[20px] rounded-bl-[20px] transition-opacity duration-300">

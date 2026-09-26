@@ -61,6 +61,8 @@ export default defineConfig({
             { src: folder.src_assets + "images", dest: folder.dist_assets },
             { src: folder.src_assets + "js", dest: folder.dist_assets },
             { src: folder.src_assets + "php", dest: folder.dist_assets },
+            { src: folder.src + "robots.txt", dest: folder.dist },
+            { src: folder.src + "sitemap.xml", dest: folder.dist },
           ],
         }),
         {

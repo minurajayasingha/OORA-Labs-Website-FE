@@ -2,7 +2,38 @@
 <html lang="en" class="scroll-smooth" data-mode="light" dir="ltr">
 
 <head>
-    {{> partials/title-meta title="AI & Intelligent Solutions" }} {{> partials/head-css }}
+    {{> partials/title-meta
+        title="AI & Intelligent Solutions"
+        description="Practical, production-ready AI — chatbots, predictive models, and NLP tools — built around real business problems, not proof-of-concept hype."
+        path="ai-intelligent-solutions.html"
+    }}
+    {{> partials/head-css }}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Service",
+                "name": "AI & Intelligent Solutions",
+                "description": "Practical, production-ready AI — chatbots, predictive models, and NLP tools — built around real business problems, not proof-of-concept hype.",
+                "url": "https://ooralabz.com/ai-intelligent-solutions.html",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "OORA Labs",
+                    "url": "https://ooralabz.com/"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ooralabz.com/" },
+                    { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://ooralabz.com/services.html" },
+                    { "@type": "ListItem", "position": 3, "name": "AI & Intelligent Solutions", "item": "https://ooralabz.com/ai-intelligent-solutions.html" }
+                ]
+            }
+        ]
+    }
+    </script>
 </head>
 
 <body class="overflow-x-hidden">
@@ -18,10 +49,10 @@
             <div class="flex justify-center items-center gap-[10px]">
                 <a href="index.html"
                     class="text-body2 sm:text-body1 text-secondary-white hover:text-primary-light transition-all duration-300 ease-in-out">Home</a>
-                <a href="#"><img src="./assets/images/nextPage.svg" alt="page"></a>
+                <a href="#"><img src="./assets/images/nextPage.svg" alt=""></a>
                 <a href="services.html"
                     class="text-body2 sm:text-body1 text-secondary-white hover:text-primary-light transition-all duration-300 ease-in-out">Services</a>
-                <a href="#"><img src="./assets/images/nextPage.svg" alt="page"></a>
+                <a href="#"><img src="./assets/images/nextPage.svg" alt=""></a>
                 <a href="ai-intelligent-solutions.html"
                     class="text-body2 sm:text-body1 text-secondary-white hover:text-primary-light transition-all duration-300 ease-in-out">AI & Intelligent Solutions</a>
             </div>
@@ -33,7 +64,7 @@
         <div class="flex flex-col-reverse  lg:flex-row items-start gap-[30px] lg:gap-[20px] xl:gap-[50px]">
             <div class="lg:w-[65%] xl:w-[70%]">
                 <div class="flex flex-col gap-[30px]">
-                    <img src="./assets/images/service-img/serviceDetail.png" alt="AI & Intelligent Solutions">
+                    <img src="./assets/images/service-img/serviceDetail.png" alt="AI and intelligent solutions illustration">
                     <div class="flex flex-col gap-5">
                         <div class="flex flex-col gap-[10px]">
                             <h2
@@ -45,27 +76,27 @@
                         <div class="flex flex-col xl:flex-row justify-center items-center gap-5">
                             <div class="flex flex-col gap-4 xl:gap-5 w-full xl:w-[53%]">
                                 <div class="flex justify-start items-center gap-[10px]"><img
-                                        src="./assets/images/nextIcon.svg" alt="icon">
+                                        src="./assets/images/nextIcon.svg" alt="">
                                     <p class="text-body2 font-bold text-secondary-white">AI readiness assessment and use-case discovery</p>
                                 </div>
 
                                 <div class="flex justify-start items-center gap-[10px]"><img
-                                        src="./assets/images/nextIcon.svg" alt="icon">
+                                        src="./assets/images/nextIcon.svg" alt="">
                                     <p class="text-body2 font-bold text-secondary-white">Chatbots and virtual assistants for customer support</p>
                                 </div>
 
                                 <div class="flex justify-start items-center gap-[10px]"><img
-                                        src="./assets/images/nextIcon.svg" alt="icon">
+                                        src="./assets/images/nextIcon.svg" alt="">
                                     <p class="text-body2 font-bold text-secondary-white">Predictive analytics and recommendation engines</p>
                                 </div>
 
                                 <div class="flex justify-start items-center gap-[10px]"><img
-                                        src="./assets/images/nextIcon.svg" alt="icon">
+                                        src="./assets/images/nextIcon.svg" alt="">
                                     <p class="text-body2 font-bold text-secondary-white">Natural language processing and document automation</p>
                                 </div>
 
                                 <div class="flex justify-start items-center gap-[10px]"><img
-                                        src="./assets/images/nextIcon.svg" alt="icon">
+                                        src="./assets/images/nextIcon.svg" alt="">
                                     <p class="text-body2 font-bold text-secondary-white">Integration of AI models into your existing systems</p>
                                 </div>
                             </div>
@@ -73,7 +104,7 @@
                                 We take a pragmatic approach to AI: starting small, proving value quickly, and scaling what works. Every solution is built with your data, your users, and your existing infrastructure in mind, so the outcome is a tool your team trusts and actually uses &mdash; not a black box bolted onto the business.
                             </p>
                         </div>
-                        <img src="./assets/images/service-img/serviceDetail2.png" alt="AI & Intelligent Solutions">
+                        <img src="./assets/images/service-img/serviceDetail2.png" alt="AI-powered chatbot and predictive model interface">
                         <p class="text-body2 text-secondary-white">From automating routine customer queries to surfacing insights hidden in your data, we help you put AI to work in ways that are measurable, explainable, and aligned with your goals.</p>
                     </div>
                 </div>
