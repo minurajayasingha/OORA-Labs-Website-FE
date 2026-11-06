@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import "./testimonial.js";
 import "./testimonial2.js";
 import "./home2Slider.js";
+import "./home-modern.js";
 import Lenis from 'lenis';
 import SplitType from 'split-type';
 import gsap from 'gsap';
